@@ -216,7 +216,7 @@ footer {
     height: 850px;
   }
   .item-list {
-    transform: ;
+    transform: translateX(25px);
   }
   header {
     height: 40px;
