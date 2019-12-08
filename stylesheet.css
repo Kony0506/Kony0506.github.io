@@ -21,7 +21,7 @@ header {
 .header-left p {
   margin: auto 0px;
   font-size: 40px;
-  font-family: impact;
+  font-family: impact, helvetica, arial, 'hiragino kaku gothic pro', 'ms pgothic', sans-serif ;
   letter-spacing: 1px;
 }
 .header-right ul li {
@@ -47,6 +47,7 @@ header {
 }
 body {
   margin: 0;
+  font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
 }
 .main-image {
   position: relative;
@@ -100,6 +101,7 @@ body {
 .item-list a {
   text-decoration: none;
   color: white;
+  letter-spacing: 0.5px;
 }
 .item-list p {
   padding-bottom: 10px;
@@ -173,6 +175,9 @@ footer {
   border-radius: 5px;
   color: white;
   font-weight: bold;
+}
+.Instagram span {
+  margin-right: 2px;
 }
 .Instagram:active {
   -webkit-transform: translateY(4px);
