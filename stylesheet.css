@@ -242,4 +242,8 @@ footer {
   .main-image h1 {
     font-size: 15px;
   }
+  .under-line h2{
+    font-size: 20px;
+    transform: translateY(20%);
+  }
 }
