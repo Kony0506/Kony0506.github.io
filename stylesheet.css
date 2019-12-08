@@ -43,7 +43,7 @@ header {
 }
 .hover {
   cursor: pointer;
-  cursor: hand;  
+  cursor: hand;
 }
 body {
   margin: 0;
@@ -216,7 +216,7 @@ footer {
     height: 850px;
   }
   .item-list {
-    transform: translateX(23%);
+    transform: ;
   }
   header {
     height: 40px;
