@@ -25,7 +25,7 @@ header {
   letter-spacing: 1px;
 }
 .header-right ul li {
-  display: inline;
+  display: inline-block;
   list-style: none;
 }
 .header-right {
@@ -40,6 +40,10 @@ header {
   color: #cccccc;
   font-family: monospace;
   font-weight: bold;
+}
+.hover {
+  cursor: pointer;
+  cursor: hand;  
 }
 body {
   margin: 0;
@@ -190,7 +194,7 @@ footer {
   transform: translateY(4px);
   border-bottom: none;
 }
-@media (max-width: 760px) {
+@media (max-width: 876px) {
   .second-wrapper {
     height: 850px;
   }
@@ -203,12 +207,39 @@ footer {
     height: 1250px;
   }
   .third-wrapper {
-    height: 2500px;
+    height: 2400px;
   }
   .fourth-wrapper {
     height: 850px;
   }
   .fifth-wrapper {
     height: 850px;
+  }
+  .item-list {
+    transform: translateX(23%);
+  }
+  header {
+    height: 40px;
+  }
+  .header-left img {
+    height: 35px;
+    width: 35px;
+    margin: 2.5px 5px 2.5px 5px;
+  }
+  .header-left p {
+    margin: auto 0px;
+    font-size: 20px;
+    font-family: impact;
+    letter-spacing: 0.5px;
+  }
+  .header-right li {
+    margin-right: 10px;
+  }
+  .header-right {
+    float: right;
+    margin: -2px 0px;
+  }
+  .main-image h1 {
+    font-size: 15px;
   }
 }
